@@ -11,16 +11,16 @@ type SelectInputProps = {
   value?: string | number;
 };
 const SelectInput: React.FC<SelectInputProps> = ({ options, onChange, value }) => (
-    <S.Container>
-      <select onChange={onChange} defaultValue={value}>
-        {options &&
-          options.map(({ value, label }, index) => (
-              <option key={index} value={value}>
-                {label}
-              </option>
-            ))}
-      </select>
-    </S.Container>
-  );
+  <S.Container>
+    <select onChange={onChange} defaultValue={value}>
+      {options &&
+        options.map(({ value, label }, index) => (
+          <option key={index} value={value}>
+            {label}
+          </option>
+        ))}
+    </select>
+  </S.Container>
+);
 
 export default SelectInput;

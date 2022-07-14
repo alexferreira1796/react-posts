@@ -9,12 +9,12 @@ type TContentHeaderProps = {
 };
 
 const ContentHeader: React.FC<TContentHeaderProps> = ({ title, lineColor, children }) => (
-    <S.Container>
-      <S.TitleContainer lineColor={lineColor}>
-        <h1>{title}</h1>
-      </S.TitleContainer>
-      <S.Controllers>{children}</S.Controllers>
-    </S.Container>
-  );
+  <S.Container>
+    <S.TitleContainer lineColor={lineColor}>
+      <h1>{title}</h1>
+    </S.TitleContainer>
+    <S.Controllers>{children}</S.Controllers>
+  </S.Container>
+);
 
 export default ContentHeader;

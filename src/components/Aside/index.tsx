@@ -44,15 +44,15 @@ const Aside: React.FC = () => {
       <MenuContainer>
         {MenuLinks &&
           MenuLinks.map(({ name, path, icon }: Links, index) => (
-              <MenuItemLink key={index}>
-                <Link to={path}>
-                  <>
-                    {icon}
-                    {name}
-                  </>
-                </Link>
-              </MenuItemLink>
-            ))}
+            <MenuItemLink key={index}>
+              <Link to={path}>
+                <>
+                  {icon}
+                  {name}
+                </>
+              </Link>
+            </MenuItemLink>
+          ))}
       </MenuContainer>
 
       <ThemeToggleFooter menuIsOpen={toggleMenuIsOpened}>
