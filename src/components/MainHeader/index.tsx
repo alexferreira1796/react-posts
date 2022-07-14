@@ -2,7 +2,7 @@ import React from "react";
 
 import emojis from "src/utils/emojis";
 
-import Toggle from "src/components/Toggle";
+import Toggle from "src/components/Forms/Toggle";
 
 import * as S from "./styles";
 

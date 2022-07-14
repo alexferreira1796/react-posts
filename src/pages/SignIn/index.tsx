@@ -3,8 +3,8 @@ import { DiReact } from "react-icons/di";
 
 import { AuthContext } from "src/hooks/auth";
 
-import Input from "src/components/Input";
-import Button from "src/components/Button";
+import Input from "src/components/Forms/Input";
+import Button from "src/components/Forms/Button";
 
 import * as S from "./styles";
 

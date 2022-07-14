@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import MenuLinks from "src/config/menu";
 
-import Toggle from "src/components/Toggle";
+import Toggle from "src/components/Forms/Toggle";
 
 import { MdClose, MdMenu } from "react-icons/md";
 import { DiReact } from "react-icons/di";

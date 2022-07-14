@@ -7,7 +7,7 @@ export const Button = styled.button`
   border-radius: 5px;
   font-weight: bold;
   color: ${props => props.theme.colors.white};
-  background-color: ${props => props.theme.colors.warning};
+  background-color: ${props => props.theme.colors.success};
   transition: opacity 0.3s;
   &:hover {
     opacity: 0.7;

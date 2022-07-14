@@ -1,10 +1,13 @@
 {
   "root": true,
   "env": {
+    "browser": true,
+    "es2021": true,
     "jest": true
   },
   "parser": "@typescript-eslint/parser",
   "plugins": [
+    "react",
     "@typescript-eslint",
     "react-prefer-function-component",
     "import",
@@ -32,6 +35,7 @@
     "react/display-name": "off",
     "import/prefer-default-export": "off",
     "import/no-unresolved": "off",
-    "import/export": "warn"
+    "import/export": "warn",
+    "react/react-in-jsx-scope": "off"
   }
 }

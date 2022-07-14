@@ -9,12 +9,12 @@ const MenuLinks = [
   },
   {
     name: "Perfil",
-    path: "/",
+    path: "/profile",
     icon: <CgProfile />,
   },
   {
     name: "Posts",
-    path: "/",
+    path: "/posts",
     icon: <MdAssignment />,
   },
   {
