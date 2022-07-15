@@ -14,6 +14,7 @@ const AppRoutes: React.FC = () => (
       <Route path="/dashboard" exact={true} component={Dashboard} />
       <Route path="/profile" exact={true} component={Profile} />
       <Route path="/posts" exact={true} component={Posts} />
+      <Route path="/posts/:id" exact={true} component={Posts} />
       <Route path="/exit" exact={true} component={Exit} />
     </Switch>
   </Layout>
