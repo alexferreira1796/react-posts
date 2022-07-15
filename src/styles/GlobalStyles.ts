@@ -26,6 +26,10 @@ const GlobalStyles = createGlobalStyle`
     text-decoration: none;
   }
 
+  img {
+    max-width: 100%;
+  }
+
 `;
 
 export default GlobalStyles;
